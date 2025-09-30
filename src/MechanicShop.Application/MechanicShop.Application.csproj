@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="QuestPDF" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MechanicShop.Domain\MechanicShop.Domain.csproj" />
+  </ItemGroup>
+  
+</Project>

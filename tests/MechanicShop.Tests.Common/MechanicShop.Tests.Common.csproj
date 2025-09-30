@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MechanicShop.Domain\MechanicShop.Domain.csproj" />
+    <ProjectReference Include="..\..\src\MechanicShop.Application\MechanicShop.Application.csproj" />
+    <ProjectReference Include="..\..\src\MechanicShop.Infrastructure\MechanicShop.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
